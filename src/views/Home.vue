@@ -13,6 +13,7 @@
                 <img src="../assets/images/bg-1.png" class="right-0 pt-5" alt />
             </div>
         </div>
+
         <!-- header end -->
         <div class="bg-white border-t-3 border-primary py-11">
             <div class="container flex justify-between items-center">
@@ -20,6 +21,7 @@
                     Our Partners
                     <br />Speak for us
                 </h1>
+                <h3>Verel Test</h3>
                 <img src="../assets/images/companiesLogo.png" class="h-auto w-auto -mr-16" alt />
             </div>
         </div>
