@@ -279,36 +279,36 @@ export default {
 </script>
 
 <style>
-@layer components {
-    .container {
-        @apply max-w-1180px mx-auto;
-    }
-    .input {
-        @apply border-b-1 placeholder-black p-2 pb-1 bg-transparent text-lg border-b-black focus-visible:outline-none hover:focus:(outline-none border-b-primary placeholder-primary);
-    }
-
-    .nav-links {
-        @apply text-lg mx-4 pb-1px cursor-pointer;
-    }
-    .hover-primary {
-        @apply pb-2 cursor-pointer;
-    }
-    .hover-active {
-        @apply border-b-primary border-b-2;
-    }
-    .btn {
-        @apply uppercase text-sm border-2 py-3 px-8 font-semibold rounded-full border-white text-white;
-    }
-    .btn-primary {
-        @apply border-primary text-primary;
-    }
+/* @layer components { */
+.container {
+    @apply max-w-1180px mx-auto;
+}
+.input {
+    @apply border-b-1 placeholder-black p-2 pb-1 bg-transparent text-lg border-b-black focus-visible:outline-none hover:focus:(outline-none border-b-primary placeholder-primary);
 }
 
-@layer utilities {
-    .green-gradient {
-        background: linear-gradient(180deg, #3faf73 0%, #3b7254 100%);
-    }
+.nav-links {
+    @apply text-lg mx-4 pb-1px cursor-pointer;
 }
+.hover-primary {
+    @apply pb-2 cursor-pointer;
+}
+.hover-active {
+    @apply border-b-primary border-b-2;
+}
+.btn {
+    @apply uppercase text-sm border-2 py-3 px-8 font-semibold rounded-full border-white text-white;
+}
+.btn-primary {
+    @apply border-primary text-primary;
+}
+/* } */
+
+/* @layer utilities { */
+.green-gradient {
+    background: linear-gradient(180deg, #3faf73 0%, #3b7254 100%);
+}
+/* } */
 
 @variants hover,
 focus {
