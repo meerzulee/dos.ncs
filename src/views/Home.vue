@@ -20,7 +20,9 @@
                     Our Partners
                     <br />Speak for us
                 </h1>
-                <img src="../assets/images/companiesLogo.png" class="h-auto w-auto -mr-16" alt />
+                <div class="w-auto flex-1 flex justify-end">
+                    <img src="../assets/images/companiesLogo.png" class="pl-36 h-auto" alt />
+                </div>
             </div>
         </div>
         <!-- Partners end -->
