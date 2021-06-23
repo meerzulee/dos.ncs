@@ -6,7 +6,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@fontsource/lato": "^4.4.5",
+  
     "sass": "^1.35.1",
     "vue": "^3.0.5",
     "vue-router": "4"

@@ -28,5 +28,7 @@
 </script>
 
 <style>
-@import "./assets/fonts/Lato.css";
+@layer base {
+  @import "./assets/fonts/Lato.css";
+}
 </style>
