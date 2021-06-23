@@ -5,7 +5,7 @@ import { defineConfig } from 'windicss/helpers'
 
 export default defineConfig({
     corePlugins: {
-        container: false
+        container: false    
     },
     theme: {
         fontFamily: {

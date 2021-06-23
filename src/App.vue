@@ -28,4 +28,15 @@
 </script>
 
 <style>
+@layer base {
+  html {
+    @apply font-body;
+  }
+  h1 {
+    @apply text-4xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+}
 </style>
