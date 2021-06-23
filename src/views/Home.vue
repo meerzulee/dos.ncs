@@ -279,17 +279,6 @@ export default {
 </script>
 
 <style>
-/* @layer base { */
-html {
-    @apply font-body;
-}
-h1 {
-    @apply text-4xl;
-}
-h3 {
-    @apply text-2xl;
-}
-/* } */
 /* @layer components { */
 .container {
     @apply max-w-1180px mx-auto;
