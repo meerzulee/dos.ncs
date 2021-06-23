@@ -8,7 +8,11 @@ export default defineConfig({
         container: false
     },
     theme: {
+        fontFamily: {
+            sans: ['Lato']
+        },
         extend: {
+           
             colors: {
                 primary: "#149A4F",
                 secondary: "#F0F8FA"
