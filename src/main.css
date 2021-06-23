@@ -1,5 +1,5 @@
 @import "./assets/fonts/Lato.css";
-/* @layer base { */
+@layer base {
     html {
     @apply font-body;
 }
@@ -9,4 +9,4 @@ h1 {
 h3 {
     @apply text-2xl;
 }
-/* } */
+}
