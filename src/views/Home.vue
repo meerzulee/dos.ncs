@@ -21,7 +21,7 @@
                     <br />Speak for us
                 </h1>
                 <div class="w-auto flex-1 flex justify-end">
-                    <img src="../assets/images/companiesLogo.png" class="pl-36 w-full h-auto" alt />
+                    <img src="../assets/images/companiesLogo.png" class="pl-36 h-full" alt />
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
                     <div class="w-full relative h-1 flex items-center z-1">
                         <img
                             src="../assets/images/tab-2.png"
-                            class="absolute -mt-10 -right-1/3 laptop:(left-1/2 w-2/3 ml-5)"
+                            class="absolute -mt-10 -right-1/3 laptop:(left-1/2 w-2/3 ml-20)"
                             alt
                         />
                     </div>
