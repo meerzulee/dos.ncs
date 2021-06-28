@@ -10,7 +10,7 @@
                     </h1>
                     <a href="#" class="btn btn-primary">Get started</a>
                 </div>
-                <img src="../assets/images/bg-1.png" class="right-0 pt-5" alt />
+                <img src="../assets/images/bg-1.png" class="right-0 pt-5 laptop:w-3/4" alt />
             </div>
         </div>
         <!-- header end -->
@@ -26,7 +26,7 @@
             </div>
         </div>
         <!-- Partners end -->
-        <div class="bg-secondary pb-36">
+        <div class="bg-secondary pb-36 overflow-hidden">
             <div class="container flex p-24 flex-col items-center">
                 <h1 class="font-semibold mb-20">Our Offering</h1>
                 <div class="w-full flex flex-col">
@@ -41,70 +41,66 @@
                     </div>
                 </div>
                 <!-- content -->
-                <div
-                    class="mt-12 relative flex flex-col w-full text-2xl font-light leading-normal justify-start"
-                >
-                    <template v-if="activeTab == 1">
-                        <h3 class="font-semibold mb-2">Infosec Consulting</h3>
-                        <p
-                            class="mb-5 tracking-wider"
-                        >We assist our clients to meet their strategic business objectives with the power to delight customers, employees, and shareholders. We ensure success by relentless application of best practices in process, people and technology and a continual pursuit of excellence. Our Key Offerings includes:</p>
+                <div v-if="activeTab === 1" class="offer-content">
+                    <h3 class="font-semibold mb-2">Infosec Consulting</h3>
+                    <p
+                        class="mb-5 tracking-wider"
+                    >We assist our clients to meet their strategic business objectives with the power to delight customers, employees, and shareholders. We ensure success by relentless application of best practices in process, people and technology and a continual pursuit of excellence. Our Key Offerings includes:</p>
 
-                        <ul class="list-disc mb-5">
-                            <li>Gap analysis & remediation Plan</li>
-                            <li>Network Audit / VAPT (Vulnerability Assessment and Penetration Testing)</li>
-                            <li>Web Application Security audit, Mobile App Security Audit</li>
-                            <li>Implementation & Certification of ISO 27001, ISO 20001, ISO 9001, ISO 14001, OHSAS 18000, ISO 31000, Cmmi Level 3 & 5, PCI-DSS etc</li>
-                        </ul>
-                        <p>We offer a full range of specialized consulting services around IT security and risk management. Our consultants and security experts are helping organizations comply with internal governance rules and external regulatory requirements, ensure that their network and critical IT assets are protected, and that their staff is fully equipped to address external and internal threats.</p>
-                    </template>
-                    <template v-else-if="activeTab == 2">
-                        <h3 class="font-semibold mb-2">Technology Integration</h3>
-                        <p
-                            class="mb-5 tracking-wider"
-                        >We understand the significance of real-time converged application-oriented network infrastructure solutions for the growth of an organization, which will lead to increased productivity and reduced costs. Below are few domains, where we focus with our skills and solution centric approach:</p>
-                        <ul class="list-disc mb-5">
-                            <li>Next Generation Firewall</li>
-                            <li>Endpoint Security, Encryption, Endpoint Detection & Response (EDR)</li>
-                            <li>Data Leakage Protection and User Behavior Analysis (DLP & UBA)</li>
-                            <li>Mail Security</li>
-                            <li>Mobile Device Management (MDM)</li>
-                            <li>Security information and event management (SIEM)</li>
-                            <li>Security Orchestration and Automation(SOAR)</li>
-                            <li>Software defined WAN & LAN</li>
-                        </ul>
-                        <div class="w-full relative h-1 flex items-center">
-                            <img
-                                src="../assets/images/tab-2.png"
-                                class="absolute -mt-10 -right-1/3"
-                                alt
-                            />
-                        </div>
-                    </template>
-                    <template v-else-if="activeTab == 3">
-                        <h3 class="font-semibold mb-2">Managed Services & Cloud</h3>
-                        <p
-                            class="mb-5 tracking-wider"
-                        >Local Cloud and Hybrid Cloud offerings help customers to build and operate organization's critical IT infrastructure more efficiently, without having to move from current site. With our resources, advanced tool-set and proven ITIL-based service framework, organization can improve the quality and reliability of the IT operation – with fewer headaches and lower risk.</p>
-                        <ul class="list-disc mb-5">
-                            <li>Data Center Management</li>
-                            <li>Network Management</li>
-                            <li>Security Management</li>
-                            <li>Desktop Management</li>
-                            <li>Vulnerability Management</li>
-                            <li>Incident Response</li>
-                            <li>Decide on Standards, frame work, and compliance</li>
-                            <li>Periodically Assess Threats, Vulnerabilities and Risks</li>
-                            <li>CISO / DPO On Demand</li>
-                        </ul>
-                        <div class="w-full relative h-1 flex items-center">
-                            <img
-                                src="../assets/images/tab-3.png"
-                                class="absolute -mt-48 -right-1/3"
-                                alt
-                            />
-                        </div>
-                    </template>
+                    <ul class="list-disc mb-5">
+                        <li>Gap analysis & remediation Plan</li>
+                        <li>Network Audit / VAPT (Vulnerability Assessment and Penetration Testing)</li>
+                        <li>Web Application Security audit, Mobile App Security Audit</li>
+                        <li>Implementation & Certification of ISO 27001, ISO 20001, ISO 9001, ISO 14001, OHSAS 18000, ISO 31000, Cmmi Level 3 & 5, PCI-DSS etc</li>
+                    </ul>
+                    <p>We offer a full range of specialized consulting services around IT security and risk management. Our consultants and security experts are helping organizations comply with internal governance rules and external regulatory requirements, ensure that their network and critical IT assets are protected, and that their staff is fully equipped to address external and internal threats.</p>
+                </div>
+                <div v-if="activeTab === 2" class="offer-content">
+                    <h3 class="font-semibold mb-2">Technology Integration</h3>
+                    <p
+                        class="mb-5 tracking-wider"
+                    >We understand the significance of real-time converged application-oriented network infrastructure solutions for the growth of an organization, which will lead to increased productivity and reduced costs. Below are few domains, where we focus with our skills and solution centric approach:</p>
+                    <ul class="list-disc mb-5 z-10">
+                        <li>Next Generation Firewall</li>
+                        <li>Endpoint Security, Encryption, Endpoint Detection & Response (EDR)</li>
+                        <li>Data Leakage Protection and User Behavior Analysis (DLP & UBA)</li>
+                        <li>Mail Security</li>
+                        <li>Mobile Device Management (MDM)</li>
+                        <li>Security information and event management (SIEM)</li>
+                        <li>Security Orchestration and Automation(SOAR)</li>
+                        <li>Software defined WAN & LAN</li>
+                    </ul>
+                    <div class="w-full relative h-1 flex items-center z-1">
+                        <img
+                            src="../assets/images/tab-2.png"
+                            class="absolute -mt-10 -right-1/3 laptop:(left-1/2 w-2/3 ml-5)"
+                            alt
+                        />
+                    </div>
+                </div>
+                <div v-if="activeTab === 3" class="offer-content">
+                    <h3 class="font-semibold mb-2">Managed Services & Cloud</h3>
+                    <p
+                        class="mb-5 tracking-wider"
+                    >Local Cloud and Hybrid Cloud offerings help customers to build and operate organization's critical IT infrastructure more efficiently, without having to move from current site. With our resources, advanced tool-set and proven ITIL-based service framework, organization can improve the quality and reliability of the IT operation – with fewer headaches and lower risk.</p>
+                    <ul class="list-disc mb-5 z-10">
+                        <li>Data Center Management</li>
+                        <li>Network Management</li>
+                        <li>Security Management</li>
+                        <li>Desktop Management</li>
+                        <li>Vulnerability Management</li>
+                        <li>Incident Response</li>
+                        <li>Decide on Standards, frame work, and compliance</li>
+                        <li>Periodically Assess Threats, Vulnerabilities and Risks</li>
+                        <li>CISO / DPO On Demand</li>
+                    </ul>
+                    <div class="w-full relative h-1 flex items-center z-1">
+                        <img
+                            src="../assets/images/tab-3.png"
+                            class="absolute -mt-48 -right-1/3 laptop:(left-1/2 w-2/3 ml-15)"
+                            alt
+                        />
+                    </div>
                 </div>
             </div>
         </div>
@@ -188,7 +184,7 @@
             <div class="container">
                 <h1 class="font-bold">Contact US</h1>
                 <div class="flex mt-10">
-                    <div class="flex flex-col items-start w-1/2 pr-12">
+                    <div class="flex flex-col items-start w-1/2 pr-12 laptop:pr-16">
                         <div class="flex justify-between w-full">
                             <input type="text" class="input" placeholder="First name" />
                             <input type="text" class="input" placeholder="Last name" />
@@ -274,6 +270,7 @@ export default {
     },
     methods: {
         changeTab(x) {
+            console.log(x)
             this.activeTab = x
         }
     },
@@ -283,14 +280,13 @@ export default {
 <style>
 /* @layer components { */
 .container {
-    @apply max-w-1180px mx-auto;
+    @apply max-w-1180px mx-auto laptop:max-w-900px;
 }
 .input {
     @apply border-b-1 placeholder-black p-2 pb-1 bg-transparent text-lg border-b-black focus-visible:outline-none hover:focus:(outline-none border-b-primary placeholder-primary);
 }
-
-.nav-links {
-    @apply text-lg mx-4 pb-1px cursor-pointer;
+.offer-content {
+    @apply mt-12 relative flex flex-col w-full text-2xl font-light leading-normal justify-start;
 }
 .hover-primary {
     @apply pb-2 cursor-pointer;

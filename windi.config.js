@@ -5,14 +5,18 @@ import { defineConfig } from 'windicss/helpers'
 
 export default defineConfig({
     corePlugins: {
-        container: false    
+        container: false
     },
     theme: {
         fontFamily: {
             sans: ['Lato']
         },
         extend: {
-           
+            screens: {
+                laptop: {
+                    max: '1440px'
+                }
+            },
             colors: {
                 primary: "#149A4F",
                 secondary: "#F0F8FA"
