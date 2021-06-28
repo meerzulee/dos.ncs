@@ -21,7 +21,7 @@
                     <br />Speak for us
                 </h1>
                 <div class="w-auto flex-1 flex justify-end">
-                    <img src="../assets/images/companiesLogo.png" class="pl-36 h-full" alt />
+                    <img src="../assets/images/companiesLogo.png" class="pl-36 h-full w-full" alt />
                 </div>
             </div>
         </div>
