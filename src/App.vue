@@ -3,7 +3,7 @@
     <div class="bg-white container">
       <div class="w-full flex justify-between py-11">
         <a href="#">
-          <img src="@/assets/logo.png" class="h-auto w-30" alt />
+          <img src="@/assets/logo.png" class="h-full w-30" alt />
         </a>
         <div class="flex items-center">
           <a href="#" class="nav-links">Home</a>

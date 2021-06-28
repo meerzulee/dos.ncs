@@ -10,7 +10,7 @@
                     </h1>
                     <a href="#" class="btn btn-primary">Get started</a>
                 </div>
-                <img src="../assets/images/bg-1.png" class="right-0 pt-5 h-auto laptop:w-3/4" alt />
+                <img src="../assets/images/bg-1.png" class="right-0 pt-5 h-full laptop:w-3/4" alt />
             </div>
         </div>
         <!-- header end -->
@@ -21,7 +21,7 @@
                     <br />Speak for us
                 </h1>
                 <div class="w-auto flex-1 flex justify-end">
-                    <img src="../assets/images/companiesLogo.png" class="pl-36 h-auto" alt />
+                    <img src="../assets/images/companiesLogo.png" class="pl-36 w-full h-auto" alt />
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
                     <div class="w-full relative h-1 flex items-center z-1">
                         <img
                             src="../assets/images/tab-3.png"
-                            class="absolute -mt-48 -right-1/3 laptop:(left-1/2 w-2/3 ml-15)"
+                            class="absolute -mt-48 -right-1/3 laptop:(left-1/2 w-2/3 -mt-20 ml-15)"
                             alt
                         />
                     </div>
