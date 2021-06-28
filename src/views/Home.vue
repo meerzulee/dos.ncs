@@ -10,7 +10,7 @@
                     </h1>
                     <a href="#" class="btn btn-primary">Get started</a>
                 </div>
-                <img src="../assets/images/bg-1.png" class="right-0 pt-5 laptop:w-3/4" alt />
+                <img src="../assets/images/bg-1.png" class="right-0 pt-5 h-auto laptop:w-3/4" alt />
             </div>
         </div>
         <!-- header end -->
