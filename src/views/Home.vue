@@ -4,9 +4,11 @@
         <div class="bg-secondary h-auto">
             <div class="container flex relative justify-end">
                 <div class="absolute left-0 top-0 flex flex-col items-start mt-18">
-                    <h1 class="mb-12">
-                        Cyber Security Solutions,
-                        <br />Certification, Compliance
+                    <h1 class="mb-12 leading-relaxed" >
+                        Cyber Security Solutions, <br /> Security Operations Center, 
+                        <br />SOC as a service Certification <br />and Compliance
+                        
+                        
                     </h1>
                     <a href="#get-started" class="btn btn-primary">Get started</a>
                 </div>
