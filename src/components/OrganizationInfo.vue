@@ -1,0 +1,26 @@
+<template>
+         <!-- Organization -->
+        <div class="green-gradient bg-black bg-opacity-75 max-h-96 pt-16 w-full relative z-10">
+            <div class="flex flex-col items-center z-5 relative">
+                <h2 class="text-3xl text-center leading-normal text-white">
+                    We help organizations maintain.
+                    <br />Without the need of multiple solutions. Continuous threat
+                    <br />detection platform.
+                </h2>
+                <a href="#" class="btn mt-10">get started</a>
+            </div>
+            <div class="flex pt-18 flex justify-center">
+                <img src="@/assets/images/globe.png" class="absolute bottom-0 z-1" alt />
+            </div>
+        </div>
+</template>
+
+<script>
+    export default {
+        
+    }
+</script>
+
+<style lang="scss" scoped>
+
+</style>
