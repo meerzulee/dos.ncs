@@ -7,7 +7,7 @@
                     <br />Without the need of multiple solutions. Continuous threat
                     <br />detection platform.
                 </h2>
-                <a href="#" class="btn mt-10">get started</a>
+                <router-link to="/connect" class="btn mt-10">get started</router-link>
             </div>
             <div class="flex pt-18 flex justify-center">
                 <img src="@/assets/images/globe.png" class="absolute bottom-0 z-1" alt />

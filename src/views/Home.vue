@@ -8,7 +8,7 @@
                         Cyber Security Solutions,
                         <br />Certification, Compliance
                     </h1>
-                    <a href="#" class="btn btn-primary">Get started</a>
+                    <a href="#get-started" class="btn btn-primary">Get started</a>
                 </div>
                 <img src="@/assets/images/bg-1.png" class="right-0 pt-5 h-full laptop:w-3/4" alt />
             </div>
@@ -126,7 +126,7 @@
         <!-- founders -->
         <founders/>
         <!-- contact us -->
-        <contact-us/>
+        <contact-us id="get-started"/>
         
     </div>
 </template>
