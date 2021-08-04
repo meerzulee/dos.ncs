@@ -3,7 +3,7 @@
     <div class="bg-white container">
       <div class="w-full flex justify-between py-10">
         <router-link to="/">
-          <img src="@/assets/logo.png" class="h-full w-40" alt />
+          <img src="@/assets/logo.svg" class="h-full w-40" alt />
         </router-link>
         <div class="flex items-center nav">
           <router-link to="/" exact class="nav-links">Home</router-link>
